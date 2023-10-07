@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repository Interaction</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Send a Message to GitHub Repository</h1>
+    <form id="github-form">
+        <label for="username">GitHub Username:</label>
+        <input type="text" id="username" value="DEEPAK2516" required>
+        <br>
+        <label for="repository">Repository Name:</label>
+        <input type="text" id="repository" value="hi" required>
+        <br>
+        <label for="token">Personal Access Token:</label>
+        <input type="text" id="token" value="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" required>
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" required></textarea>
+        <br>
+        <button type="button" id="submit-button">Send Message</button>
+    </form>
+    <p id="response"></p>
+    <script src="script.js"></script>
+</body>
+</html>
